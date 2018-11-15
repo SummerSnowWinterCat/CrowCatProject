@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="../static/entity/crow_icon.ico">
+    <link rel="stylesheet" type="text/css" href="../static/css/error_page.css">
+    <meta charset="UTF-8">
+    <title>Error_Page</title>
+</head>
+<script type="text/javascript" src="../static/jquery/jquery-3.3.1.js"></script>
+<body id="body_id">
+<script>
+    setInterval(function(){
+        $('#img_1').fadeIn(1000);
+        $('#img_1').fadeOut(1000);
+        $('#img_2').fadeIn(1000);
+        $('#img_2').fadeOut(1000);
+    });
+    window.setTimeout(function(){
+        window.location.href='/'
+    },5000);
+
+</script>
+    <div id="div_1"></div>
+    <div id="div_2">
+        <img src="../static/entity/crow_cat_404/error.png" id="img_1" />
+        <img src="../static/entity/crow_cat_404/404.png" style="float: right;" id="img_2" />
+    </div>
+</body>
+</html>

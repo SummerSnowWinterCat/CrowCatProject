@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="../static/entity/crow_icon.ico">
+    <link rel="stylesheet" type="text/css" href="../static/css/crowcatconsole.css">
+    <title>-Heart-</title>
+</head>
+<script type="text/javascript" src="../static/jquery/jquery-3.3.1.js"></script>
+<script type="text/javascript" src="../static/javascript/crowcat_console.js"></script>
+<body style="background-image: url(../static/entity/crow_cat_console/background_2.jpg)" id="body_id">
+<script>
+    $(document).ready(function () {
+        get_days();
+    });
+    setInterval(function () {
+        $('#heart_id').fadeIn(1000);
+        $('#heart_id').fadeOut(1000);
+    }, 1000);
+    setInterval(function () {
+        get_days();
+    }, 9000);
+
+</script>
+<div style="width:900px;height:130px;margin: 0 auto;position:relative;">
+
+</div>
+<div style="width:900px;height:440px;margin: 0 auto;position:relative;">
+    <img src="../static/entity/crow_cat_console/icon_heart.png" id="heart_id"/>
+
+</div>
+<div style="width:900px;height:130px;margin: 0 auto;position:relative;">
+    <table align="center">
+        <tr>
+            <td><img src="../static/entity/crow_cat_console/2018.png"/></td>
+            <td><img src="../static/entity/crow_cat_console/cut.png"/></td>
+            <td><img src="../static/entity/crow_cat_console/10.png"/></td>
+            <td><img src="../static/entity/crow_cat_console/cut.png"/></td>
+            <td><img src="../static/entity/crow_cat_console/13.png"/></td>
+        </tr>
+    </table>
+
+</div>
+<div style="width:900px;height:230px;margin: 0 auto;position:relative;">
+    <table align="center">
+        <tr>
+            <td><img src="../static/entity/crow_cat_console/title.png"/></td>
+            <td id="days_td_id"></td>
+            <td><img src="../static/entity/crow_cat_console/days.png"/></td>
+        </tr>
+
+    </table>
+</div>
+
+
+</body>
+</html>

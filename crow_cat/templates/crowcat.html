@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<head>
+    <link rel="shortcut icon" href="../static/entity/crow_icon.ico">
+    <link rel="stylesheet" type="text/css" href="../static/css/crowcat.css">
+    <title>-CrowCat-</title>
+</head>
+
+<script type="text/javascript" src="../static/jquery/jquery-3.3.1.js"></script>
+<script type="text/javascript" src="../static/javascript/snow.js"></script>
+<script type="text/javascript" src="../static/javascript/crowcat.js"></script>
+<body id="body_id">
+<script type="text/javascript">
+    $(document).snowfall({
+        flakeCount: 60,
+        flakeIndex: 100,
+        maxSpeed: 7,//最高速
+        minSpeed: 1,//最低速
+        maxSize: 25,//最多数量
+        minSize: 12,//最少
+        image: [
+            '../static/entity/sakura_1.png',
+            '../static/Entity/sakura_2.png',
+            '../static/Entity/sakura_3.png'
+        ]
+    });
+    setInterval(function () {
+        $('#loading_1').fadeOut(1100);
+        $('#loading_2').fadeOut(1100);
+        $('#loading_1').fadeIn(1100);
+        $('#loading_2').fadeIn(1100);
+    });
+
+
+</script>
+
+
+<div id="div_1">
+
+</div>
+<div  id="div_2">
+    <img src="../static/entity/crow_cat_index/crow_title.png" id="crow_title_id"/>
+    <img src="../static/entity/crow_cat_index/cat_title.png" id="cat_title_id"/>
+</div>
+<div id="div_3">
+    <ul id="ul_1">
+        <li><img style="float: left;" src="../static/entity/crow_cat_index/enter.png"
+                                      id="loading_1"/></li>
+        <li><img style="float: left;cursor:pointer;"
+                                      src="../static/entity/crow_cat_index/enter_button.png" id="button_id"
+                                      onmouseover="onButtonMouseMove()" onmouseout="onButtonMouseOut()"
+                                      onclick="onButtonClick()"/></li>
+        <li><img style="float: right" src="../static/entity/crow_cat_index/enter_right.png"
+                                      id="loading_2"/></li>
+    </ul>
+
+
+</div>
+<div id="hidden_div"></div>
+<div id="div_4">
+    <span id="span_1">>>author:winter-cat©<<</span>
+    <span id="span_2">>>for my sweetheart<<</span>
+</div>
+</body>
+</html>

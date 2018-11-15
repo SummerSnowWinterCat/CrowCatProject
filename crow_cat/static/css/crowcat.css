@@ -1,0 +1,50 @@
+#body_id {
+    background-image: url(../entity/body_flash.jpg)
+}
+
+#div_1 {
+    width: 900px;
+    height: 330px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#div_2 {
+    width: 790px;
+    height: 120px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#div_3 {
+    width: 700px;
+    height: 170px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#ul_1 {
+    list-style: none;
+    float: left;
+    width: 700px;
+}
+
+li {
+    float: left;
+}
+
+#div_4 {
+    width: 920px;
+    height: 130px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
+
+#span_1, #span_2 {
+    text-align: center;
+    width: 920px;
+    display: inline-block;
+    font-family: 'Arial Black';
+    color: hotpink;
+}

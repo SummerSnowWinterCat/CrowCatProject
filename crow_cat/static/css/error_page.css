@@ -1,0 +1,16 @@
+#body_id {
+    background-image: url(../entity/crow_cat_404/404_background.jpg)
+}
+
+#div_1 {
+    width: 900px;
+    height: 230px;
+    margin: 0 auto;
+    position: relative;
+}
+#div_2 {
+    width: 900px;
+    height: 330px;
+    margin: 0 auto;
+    position: relative;
+}
