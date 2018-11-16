@@ -7,7 +7,7 @@ class Config:
     SECRET_KEY = os.environ.get('SECRET_KEY') or 'hard to guess string'
 
     @staticmethod
-    def init_crow_cat(crow_cat):  # 执行当前需要的环境的初始化
+    def init_crow_cat(crow_cat):
         pass
 
 
@@ -20,7 +20,7 @@ class TestingConfig(Config):
 
 
 # class ProductionConfig(Config):
-class ProductionConfig(Config):  # 生产坏境
+class ProductionConfig(Config):
     SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URL') or \
                               'sqlite:///' + os.path.join(basedir, 'data.sqlite')
 

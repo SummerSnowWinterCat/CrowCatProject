@@ -4,7 +4,6 @@ import datetime
 import json
 
 
-# 访问人数
 def visits_counts():
     return 0
 
